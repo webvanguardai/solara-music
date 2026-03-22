@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://solara-music.vercel.app/sitemap.xml
