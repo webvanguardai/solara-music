@@ -147,7 +147,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-[#FF3366] text-xs tracking-[0.5em] uppercase mb-4 font-display"
           >
-            Electronic Music · Dubai
+            Deep House · Melodic Techno · Afro House · Dubai
           </motion.p>
           <motion.h1
             initial={{ opacity: 0, y: 60 }}
@@ -176,10 +176,10 @@ export default function Home() {
             className="mt-8 flex gap-4"
           >
             <a href="#shows" className="bg-[#FF3366] text-black px-8 py-4 font-display font-bold text-xs tracking-[0.2em] uppercase hover:bg-white transition-colors">
-              Upcoming Shows
+              Tour Dates
             </a>
-            <a href="#releases" className="border border-[#333] text-white px-8 py-4 font-display font-bold text-xs tracking-[0.2em] uppercase hover:border-[#FF3366] transition-colors">
-              Listen Now
+            <a href="#contact" className="border border-[#333] text-white px-8 py-4 font-display font-bold text-xs tracking-[0.2em] uppercase hover:border-[#FF3366] transition-colors">
+              Booking Enquiry
             </a>
           </motion.div>
         </motion.div>
@@ -208,16 +208,16 @@ export default function Home() {
             >
               <p className="text-[#FF3366] text-xs tracking-[0.4em] uppercase mb-6 font-display">The Artist</p>
               <h2 className="font-display font-bold text-4xl md:text-6xl text-white mb-8 leading-[0.95]">
-                Born in the<br />
-                <span className="text-[#FF3366]">desert.</span><br />
-                Built for the<br />
-                <span className="text-[#FF3366]">dance floor.</span>
+                The desert<br />
+                <span className="text-[#FF3366]">in the bass.</span><br />
+                The Gulf<br />
+                <span className="text-[#FF3366]">in the groove.</span>
               </h2>
               <p className="text-[#888] mb-5 leading-relaxed text-lg">
-                SOLARA is a Dubai-born electronic music producer whose sound bridges the mystique of the Middle East with the pulse of global dance culture. Blending oud samples, desert field recordings, and Arabic vocal textures with deep house grooves and melodic techno atmospheres.
+                SOLARA fuses oud textures, desert field recordings, and Arabic vocal fragments with deep house and melodic techno. The result: a sound that belongs nowhere — and everywhere crowds move.
               </p>
               <p className="text-[#888] mb-8 leading-relaxed">
-                After residencies at WHITE Dubai and Soho Garden, SOLARA caught the attention of Afterlife Records with the debut album &quot;Dusk to Dawn&quot; — earning critical acclaim from DJ Mag, Resident Advisor, and Mixmag. The 2026 MIRAGE EP pushes deeper into Afro-house territory.
+                Resident at WHITE Dubai. Signed to Afterlife Records. &quot;Dusk to Dawn&quot; charted on Resident Advisor&apos;s most-played list. Tomorrowland 2026 confirmed. MIRAGE EP: out now on Anjunadeep.
               </p>
               <div className="grid grid-cols-3 gap-6">
                 {[
@@ -445,14 +445,14 @@ export default function Home() {
               viewport={{ once: true }}
               transition={{ duration: 0.7 }}
             >
-              <p className="text-[#FF3366] text-xs tracking-[0.4em] uppercase mb-6 font-display">Get in Touch</p>
+              <p className="text-[#FF3366] text-xs tracking-[0.4em] uppercase mb-6 font-display">Booking · Worldwide</p>
               <h2 className="font-display font-bold text-4xl md:text-6xl text-white mb-8 leading-[0.95]">
-                Let&apos;s make<br />
-                <span className="text-[#FF3366]">noise</span><br />
-                together.
+                Booking<br />
+                <span className="text-[#FF3366]">is selective.</span><br />
+                Apply below.
               </h2>
               <p className="text-[#888] mb-10 leading-relaxed text-lg">
-                Available for festival bookings, club residencies, private events, brand partnerships, and studio collaborations worldwide.
+                Festival main stages, club residencies, private events (minimum AED 50,000). Brand partnerships by invitation. Worldwide.
               </p>
               <div className="space-y-6">
                 {[
@@ -563,7 +563,7 @@ export default function Home() {
                   type="submit"
                   className="w-full bg-[#FF3366] text-black py-4 font-display font-bold text-sm tracking-[0.2em] uppercase hover:bg-white transition-colors"
                 >
-                  Send Booking Enquiry
+                  Submit Booking Request
                 </button>
               </form>
             </motion.div>
